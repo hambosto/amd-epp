@@ -2,7 +2,7 @@ use configparser::ini::Ini;
 use std::fs;
 use std::path::Path;
 
-const CONFIG_FILE: &str = "/etc/auto-epp.conf";
+const CONFIG_FILE: &str = "/etc/amd-epp.conf";
 const DEFAULT_CONFIG: &str = r#"# see available epp state by running: cat /sys/devices/system/cpu/cpu0/cpufreq/energy_performance_available_preferences
 [Settings]
 epp_state_for_AC=balance_performance
